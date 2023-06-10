@@ -1,0 +1,46 @@
+
+.criteria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.criteria__title.section-title {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.criteria__list {
+  margin-bottom: 10px;
+}
+
+.criteria__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  img {
+    margin-right: 10px;
+  }
+
+  div:first-child {
+    display: flex;
+  }
+}
+
+.criteria__text {
+  &_audited {
+    font-weight: bold;
+  }
+}
+
+.criteria__buttons {
+  padding-left: 18px;
+  display: flex;
+  gap: 10px;
+}

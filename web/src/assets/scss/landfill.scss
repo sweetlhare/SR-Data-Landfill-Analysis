@@ -1,0 +1,39 @@
+.landfill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content;
+  row-gap: 18px;
+  column-gap: 64px;
+  align-items: start;
+}
+
+.landfill__breadcrumbs {
+  grid-column: span 2;
+}
+
+.landfill__info {
+  grid-row: span 2;
+}
+
+.landfill__surveys {
+  grid-column: 2;
+}
+
+.landfill__map {
+  margin-bottom: 18px;
+  padding-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.landfill__map-title {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 18px;
+}
+
+.landfill__map-canvas {
+  border-radius: 20px;
+  overflow: hidden;
+}

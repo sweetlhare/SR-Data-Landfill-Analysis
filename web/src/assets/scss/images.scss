@@ -1,0 +1,41 @@
+.images {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  &__subtitle {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__main {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+
+    .images__list-item img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__img {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
